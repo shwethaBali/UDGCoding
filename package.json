@@ -1,0 +1,24 @@
+{
+  "name": "csv-importer",
+  "version": "1.0.0",
+  "description": "A recurring requirement is the exchange of data between different systems. [CSV-Files (comma separated values)](https://en.wikipedia.org/wiki/CSV_(Dateiformat)) are often used for this purpose, for example database exports, calendar applications or spreadsheets.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node script/csv-importer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwethaBali/UDGCoding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shwethaBali/UDGCoding/issues"
+  },
+  "homepage": "https://github.com/shwethaBali/UDGCoding#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.1"
+  }
+}
